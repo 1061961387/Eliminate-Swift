@@ -13,6 +13,8 @@
 		8494764A1B0C17E90065F6D2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 849476491B0C17E90065F6D2 /* Images.xcassets */; };
 		8494764D1B0C17E90065F6D2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8494764B1B0C17E90065F6D2 /* LaunchScreen.xib */; };
 		849476591B0C17E90065F6D2 /* Eliminate_SwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849476581B0C17E90065F6D2 /* Eliminate_SwiftTests.swift */; };
+		849476631B0C18160065F6D2 /* EView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849476621B0C18160065F6D2 /* EView.swift */; };
+		849476651B0C182B0065F6D2 /* EButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849476641B0C182B0065F6D2 /* EButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		849476521B0C17E90065F6D2 /* Eliminate-SwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Eliminate-SwiftTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		849476571B0C17E90065F6D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		849476581B0C17E90065F6D2 /* Eliminate_SwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Eliminate_SwiftTests.swift; sourceTree = "<group>"; };
+		849476621B0C18160065F6D2 /* EView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EView.swift; sourceTree = "<group>"; };
+		849476641B0C182B0065F6D2 /* EButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +81,8 @@
 		8494763F1B0C17E90065F6D2 /* Eliminate-Swift */ = {
 			isa = PBXGroup;
 			children = (
+				849476621B0C18160065F6D2 /* EView.swift */,
+				849476641B0C182B0065F6D2 /* EButton.swift */,
 				849476421B0C17E90065F6D2 /* AppDelegate.swift */,
 				849476441B0C17E90065F6D2 /* ViewController.swift */,
 				849476461B0C17E90065F6D2 /* Main.storyboard */,
@@ -213,7 +219,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				849476451B0C17E90065F6D2 /* ViewController.swift in Sources */,
+				849476651B0C182B0065F6D2 /* EButton.swift in Sources */,
 				849476431B0C17E90065F6D2 /* AppDelegate.swift in Sources */,
+				849476631B0C18160065F6D2 /* EView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
