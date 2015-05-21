@@ -10,6 +10,7 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var bottomCon: NSLayoutConstraint!
     var eview = EView()
     
     override func viewDidLoad() {
@@ -18,8 +19,9 @@ class ViewController: UIViewController {
         
         eview.frame = CGRectMake(0, 100, self.view.frame.size.width, self.view.frame.size.width)
         self.view.addSubview(eview)
-        
         eview.start()
+        
+        self.bottomCon.constant = (self.view.frame.size.height-self.view.frame.size.width-100-49)/2
     }
 
     @IBAction func click(sender: AnyObject) {

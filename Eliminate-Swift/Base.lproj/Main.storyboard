@@ -66,6 +66,9 @@
                             </mask>
                         </variation>
                     </view>
+                    <connections>
+                        <outlet property="bottomCon" destination="08J-Ll-tQx" id="DwB-Kx-lXe"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
